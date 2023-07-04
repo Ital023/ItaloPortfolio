@@ -320,6 +320,18 @@ body{
 .mediaCard--projetos--linktree{
     background: url(./assets/img/linktree.gif) center/cover;
 }
+.mediaCard--projetos--tecladoSons{
+    background: url(./assets/img/tecladoSons.gif) center/cover;
+}
+.mediaCard--projetos--cs{
+    background: url(./assets/img/cs2.gif) center/cover;
+}
+.mediaCard--projetos--optimustech{
+    background: url(./assets/img/OptimusTech.gif) center/cover;
+}
+.mediaCard--projetos--adivinha{
+    background: url(./assets/img/adivinha.gif) center/cover;
+}
 .ver-mais__projetos{
     margin: 70px 0 60px 0;
 }
