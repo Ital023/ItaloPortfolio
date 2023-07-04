@@ -258,6 +258,59 @@ body{
     background: url(./assets/img/udemyBD.jpg) center/cover;
 }
 
+.mediaCard--projetos{
+    background: url(./assets/img/csshtmlfull.png) center/cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.card--projeto{
+    background: #15191C;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    color: #fff;
+    width: 100%;
+}
+
+.cards--projetos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.bottomCard--projetos{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.card--projetos{
+    background: #15191C;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    color: #fff;
+    width: 55%;
+}
+
+.img_tec{
+    width: 15%;
+}
+.imgs_tecnologias{
+    width: 55%;
+}
+.actionsCard--projetos{
+    display: flex;
+    flex-direction: row;
+}
+
+.mediaCard--projetos--italobooks{
+    background: url(./2023-07-04\ 13-33-41.gif) center/cover;
+
+}
+
 
 @media (max-width: 1200px){
     .cabecalho__logo{
