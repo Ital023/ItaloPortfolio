@@ -165,7 +165,16 @@ body{
 .foto-italo:hover{
     transform: scale(1.1);
 }
-.cursos_principal{
+.titulo-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    margin: 54px 0 42px 0;
+}
+.cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
@@ -178,6 +187,7 @@ body{
     width: 92%;
     margin: 28px 0 0 28px;
     font-family: "Roboto",sans-serif;
+    font-weight: bold;
 }
 
 .card{
@@ -187,13 +197,14 @@ body{
     color: #fff;
 }
 .mediaCard{
-    background: url(./assets/img/java.png) center/cover;
+    background: url(./assets/img/csshtmlfull.png) center/cover;
     height: 250px;
     width: 100%;
 }
 .topCard{
     padding: 20px;
     padding-top: 22px;
+    text-align: center;
 }
 .bottomCard{
     padding: 20px;
@@ -212,12 +223,39 @@ body{
     color: #15191C;
     font-weight: bold;
 }
-
+.ver-mais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 54px 0 42px 0;  
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;  
+}
 .mediaCard--htmlCss{
     background: url(./assets/img/htmlCss.png) center/cover;
 }
 .mediaCard--javascriptform{
     background: url(./assets/img/JavascriptFormacao.png) center/cover;
+}
+.mediaCard--java{
+    background: url(./assets/img/java.png) center/cover;
+}
+.mediaCard--javascriptweb{
+    background: url(./assets/img/javascriptweb.png) center/cover;
+}
+.mediaCard--requisicoes{
+    background: url(./assets/img/requisicoes.png) center/cover;
+}
+.mediaCard--git{
+    background: url(./assets/img/git.png) center/cover;
+}
+.mediaCard--flexgrid{
+    background: url(./assets/img/gridflex.png) center/cover;
+
+}
+.mediaCard--bd{
+    background: url(./assets/img/udemyBD.jpg) center/cover;
 }
 
 @media (max-width: 1200px){
@@ -274,7 +312,7 @@ body{
         bottom: 20px;
         transition: transform 0.2s ease-in-out;
     }
-    .cursos_principal{
+    .cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 12px;
@@ -296,4 +334,5 @@ body{
         margin: 28px 0 0 20px;
         font-family: "Roboto",sans-serif;
     }
+   
 }
