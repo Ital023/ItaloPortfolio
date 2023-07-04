@@ -179,7 +179,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
 }
-.content{
+.content--cards{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,6 +258,7 @@ body{
     background: url(./assets/img/udemyBD.jpg) center/cover;
 }
 
+
 @media (max-width: 1200px){
     .cabecalho__logo{
         width: 25%;
@@ -283,6 +284,7 @@ body{
         align-items: center;
         margin: 10% 1% 0 1%;
         gap: 12%;
+        height: 100%;
     }
     .foto-italo{
         border-radius: 400px;
@@ -312,6 +314,9 @@ body{
     .redes__imagem{
         width: 15%;
     }
+    .redes-rede__github--teste{
+        margin-bottom: 28px;
+    }
     .imagem--whatsapp{
         width: 12%;
         position: absolute;
@@ -332,7 +337,7 @@ body{
         align-items: center;
         gap: 18px;
     }
-    .content{
+    .content--cards{
         display: flex;
         justify-content: center;
         align-items: center;
