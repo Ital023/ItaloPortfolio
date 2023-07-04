@@ -311,6 +311,18 @@ body{
 
 }
 
+.mediaCard--projetos--calculadora{
+    background: url(./assets/img/calculadora.gif) center/cover;
+}
+.mediaCard--projetos--consultacep{
+    background: url(./assets/img/consultaCEP.gif) center/cover;
+}
+.mediaCard--projetos--linktree{
+    background: url(./assets/img/linktree.gif) center/cover;
+}
+.ver-mais__projetos{
+    margin: 70px 0 60px 0;
+}
 
 @media (max-width: 1200px){
     .cabecalho__logo{
