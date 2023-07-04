@@ -12,3 +12,4 @@ document.onclick = function(e){
 botaoMenu.addEventListener("click",()=>{
     menu.classList.toggle("menu-lateral__ativo");
 }) 
+

@@ -290,12 +290,19 @@ body{
         transition: transform 0.3s ease-in-out;
         margin-bottom: 8%;
     }
+    .redes{
+        display: grid;
+        gap: 16px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        align-items: center;
+    }
     .redes-rede{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        text-align: center;
         gap: 12px;
         border: 3px solid #15191C;
         border-radius: 22px;
