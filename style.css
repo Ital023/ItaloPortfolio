@@ -443,5 +443,7 @@ body{
         background-color: azure;
         color: #15191C;
         font-weight: bold;
+        Text-align: center;
+        White-space: nowrap;
     }
 }
