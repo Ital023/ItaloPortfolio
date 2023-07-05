@@ -336,6 +336,65 @@ body{
     margin: 70px 0 60px 0;
 }
 
+.sobremim--principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    font-family: "Roboto",sans-serif;
+}
+
+.conteudos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.conteudo--textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 50%;
+    padding: 12px;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 12px;
+}
+.habilidades--titulo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.habilidades-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.conteudo--titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.habilidades--item{
+    width: 3%;
+}
+
+.img_italo_sobremim{
+    height: 83vh;
+}
+
 @media (max-width: 1200px){
     .cabecalho__logo{
         width: 25%;
@@ -457,5 +516,32 @@ body{
         font-weight: bold;
         Text-align: center;
         White-space: nowrap;
+    } 
+
+    .conteudo--textos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
     }
+
+    .texto{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .sobremim--principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto",sans-serif;
+        margin-top: 24px;
+    }
+
+    .habilidades--item{
+        width: 12%;
+    }
+    
 }
